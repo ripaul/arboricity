@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rpaul/Documents/dyn_edge_orientation/arboricity/arboricity.h
+string.h
+-
+assert.h
+-
+
+/home/rpaul/Documents/dyn_edge_orientation/arboricity/test_arboricity.cpp
+stdio.h
+-
+stdlib.h
+-
+arboricity.h
+/home/rpaul/Documents/dyn_edge_orientation/arboricity/arboricity.h
+
